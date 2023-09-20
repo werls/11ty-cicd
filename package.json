@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy --pathprefix '11ty-cicd'",
+    "build": "NODE_ENV=production npx eleventy --pathprefix '11ty-cicd'",
     "server": "npx eleventy --serve"
   },
   "keywords": [],
