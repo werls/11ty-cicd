@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_ENV=production eleventy",
+    "buildold": "NODE_ENV=production eleventy --pathprefix '11ty-cicd'",
+    "server": "npx eleventy --serve"
   },
   "keywords": [],
   "author": "",
