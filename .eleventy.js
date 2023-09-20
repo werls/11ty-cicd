@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
 	return {
 		templateFormats: ["md", "njk", "html", "yaml"],
 		dir: {
-			// pathPrefix: _pathPrefix,
+			pathPrefix: '/11ty-cicd/',
 			input: "_src",
 			includes: "_includes",
 			output: "_dist"
